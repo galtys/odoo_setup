@@ -1,0 +1,13 @@
+fedex>=1.1.1
+funbox==0.10
+pdfkit>=0.5.0
+pillow>=2.8.2
+reportlab>=3.2.0
+requests>=2.6.0
+pycountry
+svgutils
+simple-crypt
+requests
+pypdf
+magento
+evdev
