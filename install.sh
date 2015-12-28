@@ -1,25 +1,23 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get -y install screen graphviz ghostscript postgresql-client \\
-python-dateutil python-feedparser python-matplotlib \\
-python-ldap python-libxslt1 python-lxml python-mako \\
-python-openid python-psycopg2 python-pybabel python-pychart \\
-python-pydot python-pyparsing python-reportlab python-simplejson \\
-python-tz python-vatnumber python-vobject python-webdav \\
-python-werkzeug python-xlwt python-yaml python-imaging
+sudo apt-get -y install screen graphviz ghostscript postgresql-client python-dateutil python-feedparser python-matplotlib python-ldap python-libxslt1 python-lxml python-mako
+sudo apt-get -y install python-openid python-psycopg2 python-pybabel python-pychart
+sudo apt-get -y install python-pydot python-pyparsing python-reportlab python-simplejson 
+sudo apt-get -y install python-tz python-vatnumber python-vobject python-webdav 
+sudo apt-get -y install python-werkzeug python-xlwt python-yaml python-imaging
 
-sudo apt-get -y install gcc python-dev mc bzr bzr-fastimport python-setuptools python-babel \\
-python-feedparser python-reportlab-accel python-zsi python-openssl \\
-python-egenix-mxdatetime python-jinja2 python-unittest2 python-mock \\
-python-docutils lptools make python-psutil python-paramiko poppler-utils \\
-python-pdftools antiword postgresql python-pip git python-git
+sudo apt-get -y install gcc python-dev mc bzr bzr-fastimport python-setuptools python-babel 
+sudo apt-get -y install python-feedparser python-reportlab-accel python-zsi python-openssl 
+sudo apt-get -y install python-egenix-mxdatetime python-jinja2 python-unittest2 python-mock 
+sudo apt-get -y install python-docutils lptools make python-psutil python-paramiko poppler-utils 
+sudo apt-get -y install python-pdftools antiword postgresql python-pip git python-git
 sudo apt-get -y install emacs sysv-rc-conf aptitude
 sudo apt-get -y install apache2
 sudo apt-get -y install krusader #USER
 
 sudo apt-get -y install libapache2-mod-wsgi nmap
 
-python-pdftools antiword postgresql  git python-git ipython
+sudo apt-get -y install python-pdftools antiword postgresql  git python-git ipython
 sudo apt-get -y install emacs sysv-rc-conf
 sudo apt-get -y install libapache2-mod-wsgi nmap
 
