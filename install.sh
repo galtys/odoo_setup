@@ -1,4 +1,5 @@
 #!/bin/bash
+
 sudo apt-get update
 sudo apt-get -y install screen graphviz ghostscript postgresql-client \\
 python-dateutil python-feedparser python-matplotlib \\
@@ -15,24 +16,25 @@ python-docutils lptools make python-psutil python-paramiko poppler-utils \\
 python-pdftools antiword postgresql python-pip git python-git
 sudo apt-get -y install emacs sysv-rc-conf aptitude
 sudo apt-get -y install apache2
-sudo apt-get -y install krusader #USER
+
 
 sudo apt-get -y install libapache2-mod-wsgi nmap
 
 python-pdftools antiword postgresql  git python-git ipython
 sudo apt-get -y install emacs sysv-rc-conf
 sudo apt-get -y install libapache2-mod-wsgi nmap
-
-#sudo pip install pycountry
-#sudo pip install svgutils
-#sudo pip install pycountry
-#sudo pip install svgutils
-#sudo pip install simple-crypt
-#sudo pip install requests
-#sudo pip install pypdf
-#sudo pip install magento  #pymagento
-#sudo pip install requests
-#sudo pip install evdev
+sudo apt-get -y install python-sphinx
+sudo pip install -U  oerplib
+sudo pip install -U  pycountry
+sudo pip install -U  svgutils
+sudo pip install -U  pycountry
+sudo pip install -U  svgutils
+sudo pip install -U  simple-crypt
+sudo pip install -U  requests
+sudo pip install -U  pypdf
+sudo pip install -U  magento  #pymagento
+sudo pip install -U  requests
+sudo pip install -U  evdev
 
 
 sudo aptitude -y install openjdk-6-jdk openjdk-6-jre #for pentaho
