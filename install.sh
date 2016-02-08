@@ -38,7 +38,7 @@ sudo pip install -U  evdev
 sudo aptitude -y install openjdk-6-jdk openjdk-6-jre #for pentaho
 sudo aptitude -y install ant
 sudo aptitude -y install openssh-server
-sudo aptitude -y install mdadm
+#sudo aptitude -y install mdadm
 sudo apt-get -y install python-xlrd python-zbar units
 #zbar-tools ?
 sudo a2enmod ssl
