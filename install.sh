@@ -33,7 +33,7 @@ sudo pip install -U  pypdf
 sudo pip install -U  magento  #pymagento
 sudo pip install -U  requests
 sudo pip install -U  evdev
-
+sudo pip install -U giturlparse.py
 
 sudo aptitude -y install openjdk-6-jdk openjdk-6-jre #for pentaho
 sudo aptitude -y install ant
