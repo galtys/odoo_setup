@@ -12,6 +12,7 @@ SETUP
 -----
 
 ```
+sudo apt-get update
 sudo apt-get -y  install git openssh-server postgresql emacs
 sudo apt-get -y install python-pip
 sudo apt-get -y install bzr
